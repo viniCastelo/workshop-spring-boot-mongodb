@@ -2,6 +2,7 @@ package com.udemy.workshopmongodb.services;
 
 import com.udemy.workshopmongodb.domain.User;
 import com.udemy.workshopmongodb.repositories.UserRepository;
+import com.udemy.workshopmongodb.services.exceptions.ObjectNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -20,7 +21,7 @@ public class UserService {
 
     public User findById(String id){
         Optional<User> obj = repository.findById(id);
-        return obj.get();
+        return obj.orElseThrow(() -> new ObjectNotFoundException(id));
     }
 
 }
