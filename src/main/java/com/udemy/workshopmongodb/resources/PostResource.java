@@ -1,4 +1,4 @@
-package com.udemy.workshopmongodb.domain.resources;
+package com.udemy.workshopmongodb.resources;
 
 import com.udemy.workshopmongodb.domain.Post;
 import com.udemy.workshopmongodb.services.PostService;

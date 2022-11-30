@@ -1,4 +1,4 @@
-package com.udemy.workshopmongodb.domain.resources.exceptions;
+package com.udemy.workshopmongodb.resources.exceptions;
 
 import com.udemy.workshopmongodb.services.exceptions.ObjectNotFoundException;
 import jakarta.servlet.http.HttpServletRequest;
