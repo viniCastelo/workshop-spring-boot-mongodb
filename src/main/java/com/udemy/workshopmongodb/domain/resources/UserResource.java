@@ -1,4 +1,4 @@
-package com.udemy.workshopmongodb.resources;
+package com.udemy.workshopmongodb.domain.resources;
 
 import com.udemy.workshopmongodb.domain.User;
 import com.udemy.workshopmongodb.dto.UserDTO;

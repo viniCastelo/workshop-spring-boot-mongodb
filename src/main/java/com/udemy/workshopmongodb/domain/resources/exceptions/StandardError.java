@@ -1,4 +1,4 @@
-package com.udemy.workshopmongodb.resources.exceptions;
+package com.udemy.workshopmongodb.domain.resources.exceptions;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 
